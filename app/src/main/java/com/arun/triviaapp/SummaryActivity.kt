@@ -54,9 +54,9 @@ class SummaryActivity : AppCompatActivity() {
         btnFinish.setOnClickListener(View.OnClickListener { view ->
 
             val home = Intent(this, MainActivity::class.java)
-            home.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//            home.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(home)
-            finish();
+//            finish();
         })
 
         /* Handle click action */
